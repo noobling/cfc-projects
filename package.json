@@ -26,6 +26,7 @@
     "typeface-ibm-plex-mono": "^0.0.61"
   },
   "devDependencies": {
+    "cypress": "^3.4.1",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -38,7 +39,9 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "cypress:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
