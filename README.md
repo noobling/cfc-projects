@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  CFC Projects
 </h1>
 
 [![Build Status](https://travis-ci.org/noobling/cfc-projects.svg?branch=master)](https://travis-ci.org/noobling/cfc-projects)
