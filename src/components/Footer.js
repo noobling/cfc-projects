@@ -45,15 +45,24 @@ export default () => {
       </Text>
       <Link to="/">&larr;Back Home</Link>
       <Logos>
-        <Logo href="https://facebook.com/codersforcauses" target="_blank">
+        <Logo
+          href="https://facebook.com/codersforcauses"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <LogoImage src={FacebookLogo} alt="Facebook" />
         </Logo>
-        <Logo href="https://github.com/codersforcauses" target="_blank">
+        <Logo
+          href="https://github.com/codersforcauses"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <LogoImage src={GithubLogo} alt="Github" />
         </Logo>
         <Logo
           href="https://au.linkedin.com/company/coders-for-causes"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <LogoImage src={LinkedInLogo} alt="LinkedIn" />
         </Logo>
