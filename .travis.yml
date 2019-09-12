@@ -22,8 +22,6 @@ cache:
 
 defaults: &defaults
   script:
-    #   ## print all Travis environment variables for debugging
-    - $(npm bin)/print-env TRAVIS
     - npm run start &
     - npm run cy:run -- --record --key $CYPRESS_KEY --parallel --group $STAGE_NAME
     # after all tests finish running we need
